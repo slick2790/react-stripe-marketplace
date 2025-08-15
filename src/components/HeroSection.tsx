@@ -45,8 +45,9 @@ const HeroSection = () => {
             variant="outline" 
             size="lg" 
             className="border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-purple-900 px-8 py-6 text-lg transition-all duration-300"
+            onClick={() => window.location.href = '/marketplace'}
           >
-            Browse Products
+            Browse Marketplace
           </Button>
         </div>
 
